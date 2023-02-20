@@ -29,10 +29,6 @@ import org.hamcrest.*
 import org.hamcrest.Matchers.anyOf
 import java.util.concurrent.TimeoutException
 
-/**
- * Created by Irakli Chkhitunidze on 24.01.2022.
- * There is view actions
- */
 
 /**
  * Wait for view to be visible
