@@ -9,7 +9,7 @@ android {
     buildToolsVersion rootProject.buildToolsVersion
     defaultConfig {
         applicationId "com.example.android.testing.espresso.BasicSample"
-        minSdkVersion 14
+        minSdkVersion 18
         targetSdkVersion 33
         versionCode 1
         versionName "1.0"
@@ -51,6 +51,9 @@ dependencies {
     // App dependencies
     implementation 'androidx.annotation:annotation:' + rootProject.androidxAnnotationVersion;
     implementation 'com.google.guava:guava:' + rootProject.guavaVersion
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    implementation 'androidx.test.uiautomator:uiautomator:2.2.0'
+    implementation 'androidx.test.espresso:espresso-contrib:3.5.1'
 
     // Testing-only dependencies
     androidTestImplementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
