@@ -65,6 +65,7 @@ class ChangeTextBehaviorKtTest {
         onView(withId(R.id.changeTextBt)).perform(click())
 
         logOutButtonMatcher.tap()
+        logOutButtonMatcher.wait(5)
 
 
         // Check that the text was changed.
